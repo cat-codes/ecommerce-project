@@ -83,4 +83,5 @@
   font-weight: 500;
   line-height: 33px; /* 206.25% */
   text-decoration-line: underline;
+  cursor: pointer;;
 }

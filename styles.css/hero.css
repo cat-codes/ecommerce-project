@@ -17,6 +17,7 @@
 .logo {
   width: 113px; 
   height: 27px;
+  cursor: pointer;
 }
 
 .nav-icons {
@@ -24,6 +25,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .nav-icon {
@@ -71,6 +73,7 @@
   line-height: 33px; /* 206.25% */
   text-decoration-line: underline;
   margin: 13px 0px 0px;
+  cursor: pointer;
 }
 
 
