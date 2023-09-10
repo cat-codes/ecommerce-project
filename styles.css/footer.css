@@ -1,0 +1,135 @@
+.footer {
+  position: relative;
+  width: 375px;
+  height: 480px;
+  background: #EFEFEF;
+  margin-top: 26px;
+}
+
+.footer-logo {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  top: 42px;
+  left: 12px;
+  margin-bottom: 29px;
+}
+
+.contact-info {
+  position: absolute;
+  top: 95px;
+  left: 19px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 14px;
+}
+
+.contact-text {
+  width: 226px;
+  height: 21px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 16px;
+}
+
+.subscribe {
+  position: absolute;
+  width: 320px;
+  height: 54px;
+  top: 252px;
+  bottom: 174px;
+  left: 19px;
+  right: 36px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form {
+  position: absolute;
+  width: 336px;
+  height: 40px;
+  top: 325px;
+  bottom: 115px;
+  left: 19px;
+  right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  position: relative;
+  height: 100%;
+  width: 287px;
+  border: 0.4px solid rgba(0, 0, 0, 0.38);
+  background: #F9F9F9;
+  padding-left: 14px;
+}
+
+input::placeholder {
+  width: 162px;
+  height: 22px;
+  color: #7A7A7A;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button {
+  position: relative;
+  height: 112%;
+  width: 49px;
+  background: #D9D9D9;
+  border: none;
+}
+
+hr {
+  position: absolute;
+  width: 336px;
+  height: 1px;
+  top: 408px;
+  bottom: 72px;
+  left: 19px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.36);
+}
+
+.copyright {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 238px;
+  height: 24px;
+  top: 430px;
+  bottom: 30px;
+  left: 19px;
+  right: 118px;
+}
+
+.© {
+  margin-right: 13px; 
+}
