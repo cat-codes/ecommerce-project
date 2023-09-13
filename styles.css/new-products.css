@@ -1,29 +1,28 @@
 .new-products {
   display: grid;
-  grid-template-columns: 350px;
-  margin: 53px 12px 0;
+  grid-template-columns: 1fr;
+  margin-top: 50px;
 }
 
 .collection {
 position: relative;
-margin-bottom: 20px;
+margin: 0 12px 20px;
 }
 
 .new-products-img {
-  width: 350px;
-  height: 178px;
+  width: 100%;
 }
 
 .new-products-text {
   position: absolute;
   top: 33px;
-  bottom: 51px;
-  left: 14px;
+  bottom: 50px;
+  left: 15px;
 }
 
 .new-furniture-h {
   width: 138px;
-  height: 51px;
+  height: 50px;
   color: #000;
   text-align: center;
   font-family: Poppins;
@@ -32,4 +31,21 @@ margin-bottom: 20px;
   font-weight: 300;
   line-height: 25px; /* 125% */
   margin: 0;
+}
+
+/*tablet*/
+@media(min-width: 600px) {
+  .new-products {
+    margin-bottom: 35px;
+  }
+  .new-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 45px;
+  }
+
+  .collection {
+    position: relative;
+    margin: 0 12px 0;
+    }
 }

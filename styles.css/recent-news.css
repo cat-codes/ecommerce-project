@@ -55,9 +55,7 @@
 .news-text {
   position: absolute;
   top: 238px;
-  bottom: 24px;
   left: 19px;
-  right: 35px;
 }
 
 .news-title {
@@ -85,3 +83,24 @@
   text-decoration-line: underline;
   cursor: pointer;;
 }
+
+  /*tablet*/
+  @media(min-width: 600px) {
+    .recent-news {
+      margin-top: 20px;
+    }
+
+    .news-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .news {
+      margin: 0 15px 20px;
+    }
+    
+    .news-img {
+      width: 330px;
+      height: 330px;
+    }
+  }

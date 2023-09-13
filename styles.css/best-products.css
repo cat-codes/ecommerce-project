@@ -15,17 +15,19 @@
   font-style: normal;
   font-weight: 300;
   line-height: 25px; /* 83.333% */
-  margin-top: 16px;
-  margin-bottom: 36px;
+  margin: 15px 0 35px;
   }
 
   .best-products-list {
     display: grid;
-    grid-template-columns: 350px;
+    grid-template-columns: 1fr;
   }
 
   .best-products-item {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
   }
 
@@ -50,10 +52,6 @@
     align-items: center;
     height: 44px;
     width: 141px;
-    top: 135px;
-    bottom: 171px;
-    left: 110px;
-    right: 110px;
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -66,3 +64,29 @@
   .title {
     margin-bottom: 18px;
   }
+
+  /*tablet*/
+@media(min-width: 600px) {
+.best-products {
+  margin-bottom: 5px;
+}
+
+  .best-products-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .best-products-item {
+    margin: 0 8px 30px;
+  }
+
+  .best-products-img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .overlay {
+    width: 220px;
+    height: 220px;
+  }
+}

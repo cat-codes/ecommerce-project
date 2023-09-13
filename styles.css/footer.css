@@ -1,25 +1,27 @@
 .footer {
-  position: relative;
-  width: 375px;
-  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   background: #EFEFEF;
-  margin-top: 26px;
+  margin-top: 25px;
+  padding: 40px 12px 30px;
 }
 
 .footer-logo {
-  position: absolute;
-  width: 100px;
-  height: 24px;
-  top: 42px;
-  left: 12px;
-  margin-bottom: 29px;
-  cursor: pointer;
+  display: block;
+  width: 90%;
 }
 
-.contact-info {
-  position: absolute;
-  top: 95px;
-  left: 19px;
+.foot-flex {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 30px 12px 45px;
+}
+
+.foot-1 {
+  margin-bottom: 65px;;
 }
 
 .contact {
@@ -43,13 +45,8 @@
 }
 
 .subscribe {
-  position: absolute;
   width: 320px;
   height: 54px;
-  top: 252px;
-  bottom: 174px;
-  left: 19px;
-  right: 36px;
   color: #000;
   font-family: Poppins;
   font-size: 16px;
@@ -59,13 +56,8 @@
 }
 
 .form {
-  position: absolute;
   width: 336px;
   height: 40px;
-  top: 325px;
-  bottom: 115px;
-  left: 19px;
-  right: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -73,12 +65,12 @@
 }
 
 input {
-  position: relative;
   height: 100%;
   width: 287px;
   border: 0.4px solid rgba(0, 0, 0, 0.38);
   background: #F9F9F9;
   padding-left: 14px;
+  margin-top: 20px;
 }
 
 input::placeholder {
@@ -93,45 +85,82 @@ input::placeholder {
 }
 
 button {
-  position: relative;
   height: 112%;
   width: 49px;
   background: #D9D9D9;
   border: none;
   cursor: pointer;
-}
-
-hr {
-  position: absolute;
-  width: 336px;
-  height: 1px;
-  top: 408px;
-  bottom: 72px;
-  left: 19px;
-  right: 20px;
-  background: rgba(0, 0, 0, 0.36);
+  margin-top: 20px;
 }
 
 .copyright {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  width: 90%;
   color: #000;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 238px;
-  height: 24px;
-  top: 430px;
-  bottom: 30px;
-  left: 19px;
-  right: 118px;
+  margin: 0 12px 0;
 }
 
-.© {
-  margin-right: 13px; 
+hr {
+  width: 336px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.10);
+  margin-bottom: 20px;
+}
+
+  /*tablet*/
+  @media(min-width: 600px) {
+    .footer {
+      margin-top: 40px;
+    }
+
+    .foot-flex {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90%;
+      margin: 45px 35px 30px;
+    }
+
+    .foot-1 {
+      margin-bottom: 0;
+    }
+
+    hr {
+      width: 90%;
+      height: 1px;
+      margin-bottom: 15px;
+    }
+
+    .copyright {
+      margin: 0px 35px 30px;
+    }
+  }
+
+  /*desktop*/
+@media(min-width: 1280px) {
+
+  .foot-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 45px 120px 40px;
+  }
+
+  .foot-1 {
+    margin-bottom: 0;
+  }
+
+  hr {
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .copyright {
+    margin: 0px 125px 30px;
+  }
 }
