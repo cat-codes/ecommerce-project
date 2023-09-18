@@ -58,7 +58,6 @@
 
 .hero-h {
   width: 199px;
-  height: 65px;
   color: #000;
   text-align: center;
   font-family: Poppins;
@@ -105,5 +104,32 @@
   .hero-img-3 {
   display: block;
   width: 100%;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px; /* 165% */
+  }
+
+  .menu-txt {
+    margin-right: 27px;;
+  }
+
+  .rectangle {
+    height: 205px;
+    width: 520px;
+  }
+
+  .hero-h {
+    width: 400px;
   }
 }

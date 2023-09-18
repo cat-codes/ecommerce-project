@@ -90,3 +90,29 @@
     height: 220px;
   }
 }
+
+/*desktop*/
+@media(min-width: 1280px) {
+  .best-products {
+ margin: 28px 0 53px;
+  }
+
+  .best-products-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .best-products-item {
+    margin: 0 14px 18px;
+  }
+
+  .best-products-img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .overlay {
+    width: 280px;
+    height: 280px;
+  }
+}

@@ -104,3 +104,24 @@
       height: 330px;
     }
   }
+
+  /*desktop*/
+@media(min-width: 1280px) {
+  .recent-news {
+    margin-top: 52px;
+  }
+
+  .news-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .news {
+    margin: 0 15px 20px;
+  }
+  
+  .news-img {
+    width: 380px;
+    height: 380px;
+  }
+}
