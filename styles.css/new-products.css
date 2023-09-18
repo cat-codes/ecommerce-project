@@ -38,12 +38,10 @@ margin: 0 12px 20px;
 /*tablet*/
 @media(min-width: 600px) {
   .new-products {
-    margin-bottom: 35px;
-  }
-  .new-products {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 45px;
+    margin-bottom: 35px;
   }
 
   .collection {
@@ -54,12 +52,22 @@ margin: 0 12px 20px;
 
 /*desktop*/
 @media(min-width: 1280px) {
+  .new-products {
+    margin: 58px 20px 0;
+  }
+
   .new-products-text {
     top: 110px;
+    left: 24px;
   }
 
   .new-products-h {
     width: 245px;
     left: 25px;
+    text-align: left;
+  }
+
+  .collection {
+    margin: 0 15px 0;
   }
 }
